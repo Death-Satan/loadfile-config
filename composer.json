@@ -1,0 +1,25 @@
+{
+    "name": "death_satan/loadfile-config",
+    "description": "read file,yaml,json,ini,php.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DeathSatan\\LoadfileConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Death-Satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^6.0",
+        "php": ">=8.0.2",
+        "sabre/xml": "^2.2",
+        "matomo/ini": "^3.0",
+        "symfony/var-exporter": "*"
+    },
+    "minimum-stability": "stable"
+}
